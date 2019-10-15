@@ -55,6 +55,9 @@ return new_value
 end
 
 
+def reduce_to_all_true (source_array)
+  
+
 
   
   
