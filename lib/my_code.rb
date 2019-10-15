@@ -44,8 +44,8 @@ end
 
 
 
-def reduce_to_total (source_array, starting_point)
-new_value= 0
+def reduce_to_total (source_array, starting_point=0)
+new_value= starting_point
 i=0
 while i<source_array.length do
 new_value += source_array.shift + starting_point
